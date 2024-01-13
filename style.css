@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+/*
     background: linear-gradient(#94f5f0,rgb(6, 6, 195));
+
+
+*/
+body{
+    background: linear-gradient(#4862f6,rgb(6, 6, 195));
     height:100vh;
     font-family:system-ui;
 }
@@ -58,8 +64,16 @@ header ul li a:hover,.active{
     bottom:0;
     height: 100px;
     width: 100%;
-    background: linear-gradient(to top,rgb(222, 21, 245),transparent);
+    background: linear-gradient(to top,rgb(230, 85, 246),transparent);
+
 }
+/*
+    background: linear-gradient(to top,rgb(222, 21, 245),transparent);
+
+
+*/
+
+
 .main img{
     position: absolute;
     width: 100%;
@@ -218,6 +232,17 @@ section{
     font-weight: 800;
     margin-bottom: 30px;
 }
+
+.title1{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+
 .content{
     display: flex;
     justify-content: center;
