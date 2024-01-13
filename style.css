@@ -32,6 +32,8 @@ header ul{
 }
 header ul li{
     margin-right: 30px;
+    color: #000;
+
 }
 header ul li a{
     padding: 6px 15px;
@@ -92,6 +94,7 @@ header ul li a:hover,.active{
     box-sizing: border-box;
     scroll-behavior:smooth;
 }
+/*  islam mahfooz
 header{
     background:rgb(72, 95, 246) ;
     width: 100%;
@@ -103,6 +106,20 @@ header{
     padding:10px 200px;
 }
 
+*/
+
+header{
+    position: fixed;
+    width: 95%;
+    z-index:10;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 30px;
+
+}
+
+
 .logo{
     text-decoration:none;
     color:blue;
@@ -112,10 +129,11 @@ header{
 }
 .navigation a{
     text-decoration:none;
-    color:white;
+    color:#000;
     font-size:1.1em;
     font-weight:500;
     padding-left:30px;
+    background: rgb(174, 97, 246);
 }
 .navigation a:hover{
     color:blueviolet;
