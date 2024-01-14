@@ -58,6 +58,7 @@ header ul li a:hover,.active{
     align-items: center;
     overflow: hidden;
 }
+
 .main::after{
     content:'';
     position: absolute;
@@ -155,6 +156,9 @@ header{
 section{
     padding:100px 200px;
 }
+
+
+/*
 .main{
     width:100%;
     min-height:100vh;
@@ -163,7 +167,7 @@ section{
     
 }
 
-/*
+
 .main{
     width:100%;
     min-height:100vh;
