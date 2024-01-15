@@ -1,0 +1,13 @@
+body{
+    background:rgb(229, 217, 240);
+}
+.title{
+   text-align: center;
+}
+img{
+   margin: 8px 555px 8px 8px;
+}
+p{
+    font-size: 15px;
+    font-family: system-ui, sans-serif;
+}
